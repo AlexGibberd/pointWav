@@ -13,5 +13,5 @@ The spectral estimators in this package thus operate on the continuous time even
 1. Simply add the folder and its contents to your MATLAB file path
 2. Set up your data as a set of cells E{1}, E{2}, ... E{p} each with a vector of points
 3. Generate spectral estimates S = tsWP( E, kappa, wavType ,'method','kernel');
--- kappa =  smoothing window scale
--- wavType = Morlet, Mex (only these two are implemented currently)
+3.1 kappa =  smoothing window scale
+3.2  wavType = Morlet, Mex (only these two are implemented currently)
